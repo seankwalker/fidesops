@@ -20,12 +20,10 @@ The types of changes are:
 
 
 ### Changed
-
 * Refactor privacy center to be more modular [#1363](https://github.com/ethyca/fidesops/pull/1363)
- * Access support for Square [#1378](https://github.com/ethyca/fidesops/pull/1378)
+
 
 ### Fixed
-
 * Distinguish whether webhook has been visited and no fields were found, versus never visited [#1339](https://github.com/ethyca/fidesops/pull/1339)
 * Fix Redis Cache Early Expiration in Tests [#1358](https://github.com/ethyca/fidesops/pull/1358)
 * Limit values for the offset pagination strategy are now cast to integers before use [#1364](https://github.com/ethyca/fidesops/pull/1364)
@@ -40,6 +38,7 @@ The types of changes are:
 * Enable retries on saas connectors for failures at the http request level [#1376](https://github.com/ethyca/fidesops/pull/1376)
 * Add consent request api [#1387](https://github.com/ethyca/fidesops/pull/1387)
 * Add authenticated route to get consent preferences [#1402](https://github.com/ethyca/fidesops/pull/1402)
+* Access and Erasure support for Square [#1378](https://github.com/ethyca/fidesops/pull/1378)
 
 ### Removed
 
@@ -136,7 +135,6 @@ The types of changes are:
 ## [1.7.1](https://github.com/ethyca/fidesops/compare/1.7.0...1.7.1)
 
 ### Breaking Changes
-
 The `oauth2` strategy has been renamed to `oauth2_authorization_code` in order to make a distinction between the newly introduced `oauth2_client_credentials` strategy [#1159](https://github.com/ethyca/fidesops/pull/1159)
 
 ### Added
