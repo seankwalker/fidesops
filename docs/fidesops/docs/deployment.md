@@ -161,7 +161,7 @@ You can `docker pull ethyca/fides-privacy-center` to get the latest image from E
 docker pull ethyca/fides-privacy-center
 ```
 
-Once pulled, you can run `docker run -rm -p 3000:3000 ethyca/fides-privacy-center:latest` to start the server.
+Once pulled, you can run `docker run --rm -p 3000:3000 ethyca/fides-privacy-center:latest` to start the server.
 
 To configure the privacy center for your environment create a project directory, i.e. `~/custom-privacy-center`, and within
 this directory create a `config` directory. Copy the [config.json](https://github.com/ethyca/fidesops/blob/main/clients/ops/privacy-center/config/config.json)
