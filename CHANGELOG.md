@@ -17,12 +17,12 @@ The types of changes are:
 * `Security` in case of vulnerabilities.
 
 ## [Unreleased](https://github.com/ethyca/fidesops/compare/1.7.2...main)
-* Access support for Square [#1378](https://github.com/ethyca/fidesops/pull/1378)
 
 
 ### Changed
 
 * Refactor privacy center to be more modular [#1363](https://github.com/ethyca/fidesops/pull/1363)
+ * Access support for Square [#1378](https://github.com/ethyca/fidesops/pull/1378)
 
 ### Fixed
 
